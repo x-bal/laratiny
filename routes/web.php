@@ -29,8 +29,4 @@ Route::middleware('auth')->group(function () {
     Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
     // Route User
     Route::resource('users', UserController::class);
-    // Route Jurusan
-    Route::resource('jurusan', JurusanController::class);
-    // Route Angkatan
-    Route::resource('angkatan', AngkatanController::class);
 });

@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
-    <title>{{ $title }} - LaraTiny</title>
+    <title>{{ $title }} - {{ config('app.name') }}</title>
     <!-- Simple bar CSS -->
     <link rel="stylesheet" href="{{ asset('/') }}css/simplebar.css">
     <!-- Fonts CSS -->
@@ -56,7 +56,8 @@
     <script src="{{ asset('/') }}js/apps.js"></script>
     <script src="{{ asset('/') }}js/jquery.dataTables.min.js"></script>
     <script src="{{ asset('/') }}js/dataTables.bootstrap4.min.js"></script>
-    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="{{ asset('/') }}js/sweetalert.min.js"></script>
+
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-56159088-1"></script>

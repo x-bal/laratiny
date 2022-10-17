@@ -39,14 +39,6 @@
                         <a class="nav-link pl-3" href="{{ route('users.index') }}"><span class="ml-1 item-text">Data User</span>
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link pl-3" href="{{ route('jurusan.index') }}"><span class="ml-1 item-text">Data Jurusan</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link pl-3" href="{{ route('angkatan.index') }}"><span class="ml-1 item-text">Data Angkatan</span>
-                        </a>
-                    </li>
                 </ul>
             </li>
         </ul>
